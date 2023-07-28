@@ -1,0 +1,41 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "dev": "expo start --dev-client",
+    "fix": "expo-cli doctor --fix-dependencies",
+    "devbuild": "eas build --profile development --platform android",
+    "build": "eas build --profile preview --platform all",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-masked-view/masked-view": "0.2.9",
+    "@react-navigation/material-bottom-tabs": "^6.2.16",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "expo": "~49.0.5",
+    "expo-dev-client": "~2.4.6",
+    "expo-document-picker": "~11.5.4",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-blob-util": "^0.18.6",
+    "react-native-document-picker": "^9.0.1",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-paper": "^5.9.1",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.14",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
